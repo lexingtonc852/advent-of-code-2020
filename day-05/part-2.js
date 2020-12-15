@@ -55,8 +55,6 @@ const output = fs.readFileSync('input.txt', 'utf-8').split('\n')
     })
     .map(x => {return x[0]*8 + x[1]})
     .sort((a,b) => a - b)
-    .pop()
+    console.log(output)
 
-
-console.log(output)
 
